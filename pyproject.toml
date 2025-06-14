@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "structure-align"
+version = "0.1.0"
+description = "Tool to align protein structures with differing lengths"
+authors = ["haeussma <83341109+haeussma@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mdanalysis = "^2.0.0"
+biopython = "^1.83"
+numpy = ">=1.24.0,<2.0.0"
+matplotlib = "^3.7.0"
+pydantic = "^2.5.0"
+pandas = "^2.0.0"
+plotly = "^5.17.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.0.0"
+isort = "^5.12.0"
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
