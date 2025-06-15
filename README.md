@@ -23,10 +23,7 @@ Structure Align performs pairwise sequence alignment followed by structural alig
 
 ```bash
 # Install dependencies
-poetry install
-
-# Or with pip (after building)
-pip install structure-align
+pip install structurealign
 ```
 
 ## Quick Start
