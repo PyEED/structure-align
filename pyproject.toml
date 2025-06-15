@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "structure-align"
+name = "structurealign"
 version = "0.1.0"
 description = "Tool to align protein structures with differing lengths"
 authors = ["haeussma <83341109+haeussma@users.noreply.github.com>"]
