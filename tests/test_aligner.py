@@ -5,7 +5,7 @@ Tests for the StructuralAligner class.
 import numpy as np
 import pytest
 
-from structure_align import AlignmentResult, SequenceAlignment, StructuralAligner
+from structurealign import AlignmentResult, SequenceAlignment, StructuralAligner
 
 
 class TestStructuralAligner:
